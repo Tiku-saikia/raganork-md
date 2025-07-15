@@ -761,7 +761,7 @@ Module(
       const p = participants[i];
       if (isTagAdmin && !p.admin) continue;
       targets.push(p.id.replace("c.us", "s.whatsapp.net"));
-      msgText += `${targets.length}. @${p.id.split("@")[0]}\n`;
+      msgText += `hey there its zero-two created by TIKU\n\n.✬↬ +91 7086726371\n\n.✬↬ +91 7086810603🌸${targets.length}. @${p.id.split("@")[0]}\n`;
     }
     if (isReply) {
       await message.client.sendMessage(message.jid, {
