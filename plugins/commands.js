@@ -346,25 +346,16 @@ Module(
       botImageLink = path.join(__dirname, "utils", "images", "default.png");
     }
 
-    const menu = `╭═══〘 \`${botName}\` 〙═══⊷❍
-┃${star}╭──────────────
-┃${star}│
-┃${star}│ _*\`Owner\`*_ : ${botOwner}
-┃${star}│ _*\`User\`*_ : ${message.senderName.replace(/[\r\n]+/gm, "")}
-┃${star}│ _*\`Mode\`*_ : ${MODE}
-┃${star}│ _*\`Server\`*_ : ${os.platform() === "linux" ? "Linux" : "Unknown OS"}
-┃${star}│ _*\`Available RAM\`*_ : ${used} of ${total}
-┃${star}│ _*\`Total Users\`*_ : ${totalUsers}
-┃${star}│ _*\`Version\`*_ : ${botVersion}
-┃${star}│
-┃${star}│
-┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃${star}│   ${botName}
-┃${star}│
-┃${star}╰───────────────
-╰═════════════════⊷
+    const menu = `
+🎐 BOT = Zero-Two-🌷
+🦄 OWNER = ᴍʏꜱᴛɪᴄ 𝙏𝙄𝙆𝙐  🎀🌷
+PREFIX = #
 
+.✬↬ +91 7086726371
+.✬↬ +91 7086810603
+
+Hey I am Zero-Two-🌸 a whhatsapp bot created with love by LORD TIKU ✨🌷
+📭 commands 
 ${cmdmenu}`;
     try {
       if (
